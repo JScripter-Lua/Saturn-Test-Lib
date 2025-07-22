@@ -35,10 +35,10 @@ local Window = Rayfield:CreateWindow({
 })
 
 -- Tabs
-local MainTab = Window:CreateTab("Main", "app-window")
-local PlayerTab = Window:CreateTab("Player", "user-round-pen")
-local VisualsTab = Window:CreateTab("Visuals", "scan-eye")
-local AdminTab = Window:CreateTab("Admin", "shield-user")
+local MainTab = Window:CreateTab("Main")
+local PlayerTab = Window:CreateTab("Player")
+local VisualsTab = Window:CreateTab("Visuals")
+local AdminTab = Window:CreateTab("Admin")
 
 -- Functions
 local function notify(title, message, duration)
