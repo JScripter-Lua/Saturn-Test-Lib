@@ -1,5 +1,3 @@
--- This shit made by Human 30% and 70% AI
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Services
