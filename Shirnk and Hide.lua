@@ -1,3 +1,5 @@
+-- This shit made by Human 30% and 70% AI
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Services
@@ -35,10 +37,10 @@ local Window = Rayfield:CreateWindow({
 })
 
 -- Tabs
-local MainTab = Window:CreateTab("Main", 4483362458)
-local PlayerTab = Window:CreateTab("Player", 4483362458)
-local VisualsTab = Window:CreateTab("Visuals", 4483362458)
-local AdminTab = Window:CreateTab("Admin", 4483362458)
+local MainTab = Window:CreateTab("Main", "app-window")
+local PlayerTab = Window:CreateTab("Player", "user-round-pen")
+local VisualsTab = Window:CreateTab("Visuals", "scan-eye")
+local AdminTab = Window:CreateTab("Admin", "shield-user")
 
 -- Functions
 local function notify(title, message, duration)
@@ -46,7 +48,7 @@ local function notify(title, message, duration)
         Title = title,
         Content = message,
         Duration = duration or 3,
-        Image = 4483362458,
+        Image = "megaphone",
     })
 end
 
