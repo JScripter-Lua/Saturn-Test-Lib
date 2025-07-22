@@ -118,7 +118,7 @@ local function createESP(target)
     if espObjects[target] then return end
     
     local highlight = Instance.new("Highlight")
-    highlight.Name = "ViperESP"
+    highlight.Name = "ESP"
     highlight.OutlineColor = Color3.new(0, 1, 0)
     highlight.FillColor = Color3.new(0, 0, 0)
     highlight.FillTransparency = 1
@@ -164,7 +164,7 @@ local function setupAutoWin()
     cleanupAutoWin()
     
     autoWinPlatform = Instance.new("Part")
-    autoWinPlatform.Name = "ViperAutoWin"
+    autoWinPlatform.Name = "AutoWin"
     autoWinPlatform.Size = Vector3.new(1000, 1, 1000)
     autoWinPlatform.Anchored = true
     autoWinPlatform.CanCollide = true
@@ -443,8 +443,6 @@ VisualsTab:CreateToggle({
 local adminScripts = {
     {name = "Infinite Yield", url = "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"},
     {name = "Nameless Admin", url = "https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"},
-    {name = "Orca", url = "https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"},
-    {name = "CMD-X", url = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"},
     {name = "Reviz Admin", url = "https://pastebin.com/raw/Caniwq2N"}
 }
 
@@ -515,5 +513,5 @@ player.CharacterAdded:Connect(function(character)
 end)
 
 -- Initialization
-notify("Viper Hub", "Successfully loaded")
+notify("Saturn Hub Said :", "Successfully loaded")
 updateESP()
