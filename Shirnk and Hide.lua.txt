@@ -24,7 +24,7 @@ local walkDirection, walkRadius, walkSpeed = 1, 20, 2
 -- Window
 local Window = Rayfield:CreateWindow({
     Name = "Saturn Hub",
-    Icon = 122364497982383,
+    Icon = 108632720139222,
     LoadingTitle = "Loading Hub...",
     LoadingSubtitle = "Wait Hub is Loading...",
     ConfigurationSaving = {
