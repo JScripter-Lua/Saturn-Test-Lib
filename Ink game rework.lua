@@ -1,11 +1,3 @@
---!nonstrict
-
---[[
-    @author Jorsan
-    @rework JScripter
-]]
-
--- Libraries
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Maid = loadstring(game:HttpGet('https://raw.githubusercontent.com/Quenty/NevermoreEngine/refs/heads/main/src/maid/src/Shared/Maid.lua'))()
 local Signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/stravant/goodsignal/refs/heads/master/src/init.lua'))()
